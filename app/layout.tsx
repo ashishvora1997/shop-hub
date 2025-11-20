@@ -88,6 +88,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <meta property="og:logo" content="https://shophub-pi.vercel.app/favicon-32x32.png" />
+        <meta property="og:logo:width" content="400" />
+        <meta property="og:logo:height" content="400" />
+        <meta property="og:logo:alt" content="ShopHub Logo" />
+      </head>
       <body className={inter.className}>
         <ThemeProvider
           attribute="class"
