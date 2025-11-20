@@ -160,10 +160,18 @@ export default function CartPage() {
                   </p>
                 )}
               </CardContent>
-              <CardFooter className="flex flex-col gap-2">
-                <Button className="w-full" size="lg">
-                  Proceed to Checkout
+              <CardFooter className="flex flex-col gap-3">
+                <Button className="w-full" size="lg" title="Checkout is coming soon" asChild={false}>
+                  <div>Checkout Coming Soon</div>
                 </Button>
+                <div className="bg-amber-50 dark:bg-amber-950 border border-amber-200 dark:border-amber-800 rounded-lg p-3 text-center">
+                  <p className="text-sm font-medium text-amber-900 dark:text-amber-100">
+                    Checkout feature is under development
+                  </p>
+                  <p className="text-xs text-amber-800 dark:text-amber-200 mt-1">
+                    We&apos;re working on payment integration
+                  </p>
+                </div>
                 <Link href="/products" className="w-full">
                   <Button variant="outline" className="w-full">
                     Continue Shopping
