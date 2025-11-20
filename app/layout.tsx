@@ -7,7 +7,7 @@ import { CartProvider } from '@/contexts/cart-context';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://shophub-pi.vercel.app'),
+  metadataBase: new URL('https://shophub-a2z.vercel.com'),
   title: 'ShopHub - Your Online Store',
   description: 'Browse and shop from our wide selection of products. Modern e-commerce application with Next.js, React, and TypeScript.',
   keywords: ['e-commerce', 'shopping', 'products', 'store', 'next.js', 'react'],
@@ -28,13 +28,13 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://shophub-pi.vercel.app',
+    url: 'https://shophub-a2z.vercel.com',
     siteName: 'ShopHub',
     title: 'ShopHub - Your Online Store',
     description: 'Browse and shop from our wide selection of products.',
     images: [
       {
-        url: 'https://shophub-pi.vercel.app/og-image.png',
+        url: 'https://shophub-a2z.vercel.com/og-image.png',
         width: 1200,
         height: 630,
         alt: 'ShopHub - E-commerce Store',
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'ShopHub - Your Online Store',
     description: 'Browse and shop from our wide selection of products.',
-    images: ['https://shophub-pi.vercel.app/og-image.png'],
+    images: ['https://shophub-a2z.vercel.com/og-image.png'],
   },
   icons: {
     icon: '/favicon.ico',
