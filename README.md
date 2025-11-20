@@ -2,7 +2,7 @@
 
 A modern, fully-featured e-commerce web application built with Next.js 13, React, TypeScript, Tailwind CSS, and Shadcn/UI components. Browse products, manage your shopping cart, and enjoy a seamless shopping experience with beautiful dark/light theme support.
 
-**Live Demo:** [https://shophub-a2z.vercel.com](https://shophub-a2z.vercel.com)
+**Live Demo:** [https://shophub-a2z.vercel.app](https://shophub-a2z.vercel.app)
 
 ## Features
 
@@ -221,7 +221,7 @@ The application follows web accessibility best practices:
 ### Deployed on Vercel
 
 The application is deployed and live on Vercel:
-- **URL**: [https://shophub-a2z.vercel.com/dashboard](https://shophub-a2z.vercel.com/dashboard)
+- **URL**: [https://shophub-a2z.vercel.app/dashboard](https://shophub-a2z.vercel.app/dashboard)
 
 ## Contributing
 
